@@ -1,4 +1,4 @@
-// import { update } from '../../../api/image'
+
 import { update } from '../../../api/product'
 import AdminHeader from '../../../components/Header/Admin'
 import Sidebar from '../../../components/Sidebar'
@@ -64,20 +64,7 @@ const EditProductPage = {
         `
     },
     afterRender: async (id) => {
-        // const editFile = document.querySelector('#edit-file')
-        // const editImage = document.querySelector('#edit-image')
-
-        // editFile?.addEventListener('change', (event) => {
-        //     const file = event.target.files[0]
-        //     const reader = new FileReader()
-        //     reader.readAsDataURL(file)
-        //     reader.onloadend = async () => {
-        //         const res = await update(reader.result)
-        //         console.log(res)
-        //         const data = res.data
-        //         editImage.src = data.url
-        //     }
-        // })
+        
         const formEdit = document.querySelector('#formEdit');
         formEdit.addEventListener('submit', function (e) {
             e.preventDefault();
