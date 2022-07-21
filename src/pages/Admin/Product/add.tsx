@@ -88,9 +88,6 @@ const AddProductPage = {
                     console.log(err)
                  }
             }
-
-
-            // console.log('xxxxx')
         })
 
     }
