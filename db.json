@@ -1,0 +1,30 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "ahieu",
+      "originalPrice": "25000"
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "Điện thoại Xiaomi Redmi 10",
+      "originalPrice": "3.629.000",
+      "id": 3
+    },
+    {
+      "name": "Điện Thoại Samsung Galaxy A52s 5G",
+      "originalPrice": "5000000",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658159778/anhhtus/eq1xvqiaaqlav4v5ylcc.jpg",
+      "id": 4
+    },
+    {
+      "name": "dsda",
+      "originalPrice": "dsadsa",
+      "image": "",
+      "id": 5
+    }
+  ]
+}
